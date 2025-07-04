@@ -1,99 +1,111 @@
+# 🎥 Stream Vault – Node.js Backend
 
-# 🎥 YouTube Clone – Node.js Backend
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pacifico&size=85&pause=90&color=F38181&center=true&vCenter=true&random=false&width=1900&height=160&lines=Welcome+to+Stream+Vault+Backend+Repo;Powering+Modern+Video+Streaming+with+Node.js)](https://git.io/typing-svg)
 
-A fully-featured backend for a YouTube Clone application developed using **Node.js**, following best practices in architecture, security, and modularity. This backend powers essential features such as video streaming, commenting, liking, subscriptions, playlists, and user management.
+A fully-featured backend for **Stream Vault**, a modern video streaming platform inspired by YouTube, developed using **Node.js**. This backend follows best practices in **architecture**, **security**, and **modularity**, enabling seamless support for core features like:
 
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ac/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ac/512.gif" alt="🎬" width="20" height="20">
+</picture> Video Streaming <br>
+🧑‍💻 User Auth <br> 
+💬 Comments <br> 
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2764_fe0f/512.gif" alt="❤" width="20" height="20">
+</picture> Likes <br>
+📂 Playlists <br>
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f514/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f514/512.gif" alt="🔔" width="20" height="20">
+</picture> Subscriptions <br>
+🔁 History 
 
+---
 
-## 🚀 Live Deployment
+  <h2>
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.webp" type="image/webp">
+    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" alt="🚀" width="32" height="32">
+  </picture>
+  Live Deployment  
+  </h2>
+  
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" alt="🌏" width="20" height="20">
+</picture> Frontend (`React` - under development): [View](https://streamvaultstreaming.netlify.app/) <br><br>
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f30f/512.gif" alt="🌏" width="20" height="20">
+</picture> Backend (Node.js - live): Render <br><br>
 
-View Project(`frontend` is under-developement  ) : [View](https://kartikmpatelyoutubeclone.netlify.app/)
+<picture>
+  <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.webp" type="image/webp">
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2699_fe0f/512.gif" alt="⚙" width="20" height="20">
+</picture> Frontend Repository: [GitHub](https://github.com/kartikMpatel-Git-Hub/StreamVault_Frontend)
 
-Backend API is live on: [View](https://youtube-clone-mitq.onrender.com)
-<br>
-Frontend Repository : [View](https://github.com/kartikMpatel-Git-Hub/youtube_clone_react)
-
-
-
+---
 
 ## 📦 Features
 
-### 👥 User & Auth
-- User registration and login with JWT
-- Profile update and retrieval
-- Password hashing using bcrypt
+### 👥 User & Authentication
+- 🔐 JWT-based login and registration
+- 🔄 Profile management
+- 🔑 Password hashing with bcrypt
 
 ### 📹 Video Management
-- Upload videos and thumbnails via **Multer** and **Cloudinary**
-- Fetch, update, and delete videos
-- Count views and filter/search by tags or categories
+- 📤 Upload videos & thumbnails (Multer + Cloudinary)
+- ✏️ Update / Delete / Fetch videos
+- 👀 View counting
+- 🔍 Search video
 
 ### 💬 Comment System
-- Add, edit, and delete comments on videos
-- Fetch all comments for a video
+- 💬 Add, delete comments
+- 📥 Fetch comments per video
 
 ### ❤️ Likes
-- Like/Unlike videos
-- Track total likes and dislikes
+- ❤️ Like 
+- 📊 Track total likes
 
 ### 📃 Playlists
-- Create, update, delete playlists
-- Add/remove videos from playlists
+- ➕ Create and manage playlists
+- 🎬 Add or remove videos
 
 ### 🔔 Subscriptions
-- Subscribe/unsubscribe to channels
+- 🔔 Subscribe / 🚫 Unsubscribe to channels
 
-### 🐦 Tweets (Micro-posts)
-- Post short messages (like tweets)
-- Timeline of posts for users
-
-### 📊 Dashboard
-- Admin-level statistics and insights
-- Models and controllers specifically for dashboard analytics
+<!--### 🐦 Tweets
+- 🐤 Micro-blog posts (like tweets)
+- 🧵 User timelines-->
 
 ---
 
 ## 🔒 Middleware
 
-- **Authentication**: JWT-based secure access
-- **Multer**: Handles multipart form data for uploads
-- **Cloudinary**: Stores video files and thumbnails securely
+- 🔐 **JWT Authentication**
+- 📤 **Multer** for file uploads
+- ☁️ **Cloudinary** for media storage
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **Node.js** with **Express.js**
-- **MongoDB** with **Mongoose**
-- **JWT** for authentication
-- **Multer** for file handling
-- **Cloudinary** for media hosting
-- **Render** for backend deployment
+| Category | Tech |
+|---------|------|
+| 🧠 Backend | Node.js, Express.js |
+| 🛢️ Database | MongoDB (Mongoose) |
+| 🔐 Auth | JWT |
+| 📤 File Upload | Multer |
+| ☁️ Cloud Storage | Cloudinary |
+| 🧪 API Testing | Postman |
+| 🌐 Deployment | Render |
 
----
-
-## 🧪 API Documentation
-
-Each model is paired with a corresponding controller and router. A full Postman collection or Swagger documentation is recommended to explore available endpoints.
-
-| Model         | Router Path        |
-|---------------|--------------------|
-| User          | `/api/users`       |
-| Video         | `/api/videos`      |
-| Comment       | `/api/comments`    |
-| Like          | `/api/likes`       |
-| Playlist      | `/api/playlists`   |
-| Subscriptions | `/api/subs`        |
-| Tweet         | `/api/tweets`      |
-| Dashboard     | `/api/dashboard`   |
-
----
-
-## 🧾 Setup Instructions
+## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/kartikMpatel-Git-Hub/youtube_clone.git
+git clone https://github.com/kartikMpatel-Git-Hub/StreamVault_Backend.git
 cd youtube_clone
 ````
 
@@ -103,12 +115,12 @@ cd youtube_clone
 npm install
 ```
 
-### 3. Set environment variables
+### 3. Configure Environment Variables
 
-Create a `.env` file in the root directory with the following:
+Create a `.env` file in the root directory:
 
-```
-PORT=4000
+```env
+PORT=
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 CLOUDINARY_CLOUD_NAME=your_cloud_name
@@ -116,7 +128,7 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 ```
 
-### 4. Run the application
+### 4. Start the development server
 
 ```bash
 npm start
@@ -124,18 +136,26 @@ npm start
 
 ---
 
-## 📂 Deployment
+## 📡 Deployment
 
-The backend is deployed using **Render**. Configure environment variables and use the start command `npm start` in your Render dashboard.
+🚀 Deployed on [**Render**](https://render.com).
+Set environment variables and use `npm start` as the deployment command.
 
 ---
 
-## 🧑‍💻 Author
+## 📬 Contact
 
 **Kartik Patel**
-
-📧 Contact: [kartikpatel7892@gmal.com](mailto:kartikpatel7892@gmal.com)
-
-🔗 LinkedIn: [https://www.linkedin.com/in/kartikmpatel/](https://www.linkedin.com/in/kartikmpatel/)
+📧 Email: [kartikpatel7892@gmail.com](mailto:kartikpatel7892@gmail.com)
+🔗 LinkedIn: [linkedin.com/in/kartikmpatel](https://www.linkedin.com/in/kartikmpatel/)
 
 ---
+
+## ⭐ Show Some Love
+
+If you liked this project, feel free to ⭐ star the repo and fork it!
+
+> Built with ❤️ by Kartik Patel
+
+---
+
