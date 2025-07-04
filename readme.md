@@ -1,4 +1,10 @@
-# 🎥 Stream Vault – Node.js Backend
+<h1>
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ac/512.webp" type="image/webp">
+    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3ac/512.gif" alt="🎬" width="50" height="50">
+  </picture> Stream Vault – Node.js Backend
+</h1>
+
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Pacifico&size=85&pause=90&color=F38181&center=true&vCenter=true&random=false&width=1900&height=160&lines=Welcome+to+Stream+Vault+Backend+Repo;Powering+Modern+Video+Streaming+with+Node.js)](https://git.io/typing-svg)
 
@@ -47,7 +53,12 @@ A fully-featured backend for **Stream Vault**, a modern video streaming platform
 
 ---
 
-## 📦 Features
+<h2>
+  <picture>
+    <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f381/512.webp" type="image/webp">
+    <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f381/512.gif" alt="🎁" width="32" height="32">
+  </picture> Features  
+</h2>
 
 ### 👥 User & Authentication
 - 🔐 JWT-based login and registration
@@ -93,13 +104,13 @@ A fully-featured backend for **Stream Vault**, a modern video streaming platform
 
 | Category | Tech |
 |---------|------|
-| 🧠 Backend | Node.js, Express.js |
-| 🛢️ Database | MongoDB (Mongoose) |
-| 🔐 Auth | JWT |
+| 🧠 Backend | <img src = "https://skillicons.dev/icons?i=nodejs" width="45" height="45" alt="aws" title="NodeJS"/> <img src="https://skillicons.dev/icons?i=express" width="45" height="45" alt="Express.js" title="Express.js" /> |
+| 🛢️ Database | <img src="https://skillicons.dev/icons?i=mongodb" width="45" height="45" alt="MongoDB" title="MongoDB" /> <img src="https://github.com/LelouchFR/skill-icons/blob/main/assets/mongoose.svg" width="45" height="45"/> |
+| 🔐 Auth | <img src="https://github.com/LelouchFR/skill-icons/blob/main/assets/jwt-auto.svg" width="45" height="45"/> |
 | 📤 File Upload | Multer |
 | ☁️ Cloud Storage | Cloudinary |
-| 🧪 API Testing | Postman |
-| 🌐 Deployment | Render |
+| 🧪 API Testing | <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Postman.svg" width="45" height="45" alt="Postman" title="Postman"> |
+| 🌐 Deployment | <img src="https://github.com/LelouchFR/skill-icons/blob/main/assets/render-auto.svg" width="45" height="45"/>|
 
 ## ⚙️ Setup Instructions
 
