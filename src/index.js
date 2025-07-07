@@ -16,7 +16,7 @@ connectDB()
             console.log(`App Error : ${error}`)
             throw error
         })
-        app.listen(process.env.PORT || 6000 ,()=>{
+        app.listen(process.env.PORT||6000 ,()=>{
             if(process.env.NODE_ENV === 'localhost')
                 console.log(`Server Is On click Here : http://localhost:4000/`)
             else
