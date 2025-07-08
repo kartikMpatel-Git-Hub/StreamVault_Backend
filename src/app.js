@@ -38,6 +38,11 @@ const __dirname = path.dirname(__filename)
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 })
+
+app.get('/healthz', (req, res) => {
+  res.status(200).send('OK');
+});
+
 app.use("/api/v1/comments",commentRouter)
 app.use("/api/v1/likes",likeRouter)
 app.use("/api/v1/playLists",playListRouter)
