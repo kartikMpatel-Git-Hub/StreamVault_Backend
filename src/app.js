@@ -1,8 +1,23 @@
 import express from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
+import helmet from 'helmet'
+import rateLimit from 'express-rate-limit'
 
 const app = express()
+
+app.use(helmet())
+
+const limiter = rateLimit({
+  windowMs: 1 * 60 * 1000, 
+  max: 100, 
+  message: {
+    status: 429,
+    message: "Too many requests, please try again after a minute.",
+  },
+})
+app.use(limiter)
+
 const allowedOrigins = process.env.CORS_ORIGIN.split(',')
 app.use(cors({
   origin: function (origin, callback) {
